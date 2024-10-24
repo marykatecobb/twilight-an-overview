@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+.pirata-one-regular {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.cormorant-infant-regular {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header, main, footer{
+    color: white;
+}
+
+nav{
+    display:flex;
+    margin: 50px;
+    font-family: "Pirata One", system-ui;
+    font-size: 50px;
+}
+
+nav > a.logo{
+    margin-right:auto;
+}
+
+nav > a.button{
+    margin-left: 50px;
+}
+
+main > section.hero{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+main, footer {
+    font-family: "Cormorant Infant", serif;
+}
+
+div.trivia1, div.trivia2 {
+    height: 200px;
+    width: 200px;
+    background-color: #c0c0c0;
+    color: #7b0707;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+footer{
+    text-align: center;
+    padding-top: 50px;
+}
