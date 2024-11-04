@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    
+}
+
+.pirata-one-regular {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.cormorant-infant-regular {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header, main, footer{
+    color: white;
+}
+
+nav{
+    display:flex;
+    margin: 50px;
+    font-family: "Pirata One", system-ui;
+    font-size: 50px;
+}
+
+.nav_links a {
+    color: white; /* Default color */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.nav_links a:hover {
+    color: #7b0707; /* Color on hover */
+}
+
+nav > a.logo{
+    margin-right:auto;
+}
+
+nav > a.button{
+    margin-left: 50px;
+}
+
+main > section.hero{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+main > section.plotimage {
+    height: 10px;
+    width: 100%;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+article, footer {
+    font-family: "Cormorant Infant", serif;
+}
+
+article{
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 50px;
+}
